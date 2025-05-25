@@ -1,0 +1,672 @@
+[
+  {
+    "name": "Claw",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 3,
+    "material_cost_gp": 2,
+    "item_value_gp": 5,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "light"]
+  },
+  {
+    "name": "Club",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 0.25,
+    "material_cost_gp": 3,
+    "item_value_gp": 1,
+    "tool_required": ["Carpenter", "Woodcarver"],
+    "restricted_types": ["weapon", "light"]
+  },
+  {
+    "name": "Dagger",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 1,
+    "material_cost_gp": 0.7,
+    "item_value_gp": 2,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "thrown", "light"]
+  },
+  {
+    "name": "Greatclub",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 0.5,
+    "material_cost_gp": 0.8,
+    "item_value_gp": 2,
+    "tool_required": ["Carpenter", "Woodcarver"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Handaxe",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 3,
+    "material_cost_gp": 2,
+    "item_value_gp": 5,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "thrown", "light"]
+  },
+  {
+    "name": "Javelin",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 1,
+    "material_cost_gp": 3,
+    "item_value_gp": 1,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["weapon", "thrown"]
+  },
+  {
+    "name": "Knuckle duster",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 1,
+    "material_cost_gp": 3,
+    "item_value_gp": 1,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "attached", "light"]
+  },
+  {
+    "name": "Light hammer",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 1,
+    "material_cost_gp": 0.7,
+    "item_value_gp": 2,
+    "tool_required": ["Mason", "Smith"],
+    "restricted_types": ["weapon", "thrown", "light"]
+  },
+  {
+    "name": "Mace",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 3,
+    "material_cost_gp": 2,
+    "item_value_gp": 5,
+    "tool_required": ["Mason", "Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Quarterstaff",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 0.5,
+    "material_cost_gp": 2,
+    "item_value_gp": 5,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Sickle",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 1,
+    "material_cost_gp": 3,
+    "item_value_gp": 1,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "light"]
+  },
+  {
+    "name": "Spear",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 1,
+    "material_cost_gp": 3,
+    "item_value_gp": 1,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["weapon", "thrown"]
+  },
+  {
+    "name": "Spiked cestus",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 2,
+    "material_cost_gp": 1,
+    "item_value_gp": 3,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "attached"]
+  },
+  {
+    "name": "Spiked knuckle duster",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 2,
+    "material_cost_gp": 6,
+    "item_value_gp": 2,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "attached", "light"]
+  },
+  {
+    "name": "War Crescent",
+    "type": "simple melee",
+    "dc": 14,
+    "time_hours": 4,
+    "material_cost_gp": 2,
+    "item_value_gp": 6,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+   {
+    "name": "Crossbow, light",
+    "type": "simple range",
+    "dc": 14,
+    "time_hours": 12,
+    "material_cost_gp": 8,
+    "item_value_gp": 25,
+    "tool_required": ["Tinkerer"],
+    "restricted_types": ["weapon", "ammunition", "light"]
+  },
+  {
+    "name": "Dart",
+    "type": "simple range",
+    "dc": 14,
+    "time_hours": 1,
+    "material_cost_gp": 3,
+    "item_value_gp": 1,
+    "tool_required": ["Carpenter", "Woodcarver"],
+    "restricted_types": ["weapon", "thrown"]
+  },
+  {
+    "name": "Shortbow",
+    "type": "simple range",
+    "dc": 14,
+    "time_hours": 12,
+    "material_cost_gp": 8,
+    "item_value_gp": 25,
+    "tool_required": ["Carpenter", "Woodcarver"],
+    "restricted_types": ["weapon", "ammunition"]
+  },
+  {
+    "name": "Sling",
+    "type": "simple range",
+    "dc": 14,
+    "time_hours": 0.25,
+    "material_cost_gp": 3,
+    "item_value_gp": 1,
+    "tool_required": ["Weaver", "Leatherworker"],
+    "restricted_types": ["weapon", "ammunition"]
+  },
+  {
+    "name": "Slingshot",
+    "type": "simple range",
+    "dc": 14,
+    "time_hours": 0.5,
+    "material_cost_gp": 7,
+    "item_value_gp": 2,
+    "tool_required": ["Carpenter", "Woodcarver"],
+    "restricted_types": ["weapon", "ammunition"]
+  },
+  {
+    "name": "Battleaxe",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Chakram",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "thrown"]
+  },
+ {
+    "name": "Flail",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Glaive",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 12,
+    "material_cost_gp": 7,
+    "item_value_gp": 20,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Greataxe",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 18,
+    "material_cost_gp": 6,
+    "item_value_gp": 30,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Greatsword",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 24,
+    "material_cost_gp": 17,
+    "item_value_gp": 50,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Halberd",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 12,
+    "material_cost_gp": 7,
+    "item_value_gp": 20,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Lance",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Longsword",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 8,
+    "material_cost_gp": 5,
+    "item_value_gp": 15,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Maul",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Mason", "Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Morningstar",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Nunchaku",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Pike",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Rapier",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 12,
+    "material_cost_gp": 8,
+    "item_value_gp": 25,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Scimitar",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "light"]
+  },
+  {
+    "name": "Shortsword",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "light"]
+  },
+  {
+    "name": "Starknife",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon", "thrown", "light"]
+  },
+  {
+    "name": "Tetherhook",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 8,
+    "material_cost_gp": 5,
+    "item_value_gp": 15,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Trident",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 3,
+    "material_cost_gp": 2,
+    "item_value_gp": 5,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["weapon", "thrown"]
+  },
+  {
+    "name": "Twinblade",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 24,
+    "material_cost_gp": 17,
+    "item_value_gp": 50,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "War pick",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 3,
+    "material_cost_gp": 2,
+    "item_value_gp": 5,
+    "tool_required": ["Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Warhammer",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 8,
+    "material_cost_gp": 5,
+    "item_value_gp": 15,
+    "tool_required": ["Mason", "Smith"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Whip",
+    "type": "martial melee",
+    "dc": 17,
+    "time_hours": 1,
+    "material_cost_gp": 7,
+    "item_value_gp": 2,
+    "tool_required": ["Leatherworker"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Blowgun",
+    "type": "martial range",
+    "dc": 17,
+    "time_hours": 6,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Carpenter", "Woodcarver"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Crossbow, hand",
+    "type": "martial range",
+    "dc": 17,
+    "time_hours": 40,
+    "material_cost_gp": 25,
+    "item_value_gp": 75,
+    "tool_required": ["Tinkerer"],
+    "restricted_types": ["weapon", "light"]
+  },
+  {
+    "name": "Crossbow, heavy",
+    "type": "martial range",
+    "dc": 17,
+    "time_hours": 24,
+    "material_cost_gp": 17,
+    "item_value_gp": 50,
+    "tool_required": ["Tinkerer"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Longbow",
+    "type": "martial range",
+    "dc": 17,
+    "time_hours": 18,
+    "material_cost_gp": 17,
+    "item_value_gp": 50,
+    "tool_required": ["Carpenter", "Woodcarver"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Net",
+    "type": "martial range",
+    "dc": 17,
+    "time_hours": 1,
+    "material_cost_gp": 3,
+    "item_value_gp": 1,
+    "tool_required": ["Weaver"],
+    "restricted_types": ["weapon"]
+  },
+  {
+    "name": "Blunderbuss",
+    "type": "firearm",
+    "dc": 19,
+    "time_hours": 36,
+    "material_cost_gp": 50,
+    "item_value_gp": 150,
+    "tool_required": ["Tinker"],
+    "restricted_types": ["weapon", "ammunition"]
+  },
+  {
+    "name": "Musket",
+    "type": "firearm",
+    "dc": 19,
+    "time_hours": 36,
+    "material_cost_gp": 30,
+    "item_value_gp": 100,
+    "tool_required": ["Tinker"],
+    "restricted_types": ["weapon", "ammunition"]
+  },
+  {
+    "name": "Pistol",
+    "type": "firearm",
+    "dc": 19,
+    "time_hours": 48,
+    "material_cost_gp": 70,
+    "item_value_gp": 200,
+    "tool_required": ["Tinker"],
+    "restricted_types": ["weapon", "ammunition"]
+  },
+  {
+    "name": "Revolver",
+    "type": "firearm",
+    "dc": 19,
+    "time_hours": 96,
+    "material_cost_gp": 250,
+    "item_value_gp": 750,
+    "tool_required": ["Tinker"],
+    "restricted_types": ["weapon", "ammunition"]
+  },
+  {
+    "name": "Rifle",
+    "type": "firearm",
+    "dc": 19,
+    "time_hours": 120,
+    "material_cost_gp": 330,
+    "item_value_gp": 1000,
+    "tool_required": ["Tinker"],
+    "restricted_types": ["weapon", "ammunition"]
+  },
+  {
+    "name": "Padded",
+    "type": "light armour",
+    "dc": 13,
+    "time_hours": 8,
+    "material_cost_gp": 2,
+    "item_value_gp": 5,
+    "tool_required": ["Leatherworker", "Weaver"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Leather",
+    "type": "light armour",
+    "dc": 15,
+    "time_hours": 16,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Leatherworker"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Studded Leather",
+    "type": "light armour",
+    "dc": 17,
+    "time_hours": 24,
+    "material_cost_gp": 15,
+    "item_value_gp": 45,
+    "tool_required": ["Leatherworker"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Hide",
+    "type": "medium armour",
+    "dc": 13,
+    "time_hours": 8,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Leatherworker"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Chain Shirt",
+    "type": "medium armour",
+    "dc": 15,
+    "time_hours": 16,
+    "material_cost_gp": 17,
+    "item_value_gp": 50,
+    "tool_required": ["Smith"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Scale Mail",
+    "type": "medium armour",
+    "dc": 17,
+    "time_hours": 24,
+    "material_cost_gp": 17,
+    "item_value_gp": 50,
+    "tool_required": ["Smith"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Breastplate",
+    "type": "medium armour",
+    "dc": 18,
+    "time_hours": 40,
+    "material_cost_gp": 130,
+    "item_value_gp": 400,
+    "tool_required": ["Smith"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Half Plate",
+    "type": "medium armour",
+    "dc": 19,
+    "time_hours": 80,
+    "material_cost_gp": 250,
+    "item_value_gp": 750,
+    "tool_required": ["Smith"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Ring Mail",
+    "type": "heavy armour",
+    "dc": 15,
+    "time_hours": 16,
+    "material_cost_gp": 10,
+    "item_value_gp": 30,
+    "tool_required": ["Smith"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Chain Mail",
+    "type": "heavy armour",
+    "dc": 16,
+    "time_hours": 32,
+    "material_cost_gp": 25,
+    "item_value_gp": 75,
+    "tool_required": ["Smith"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Splint",
+    "type": "heavy armour",
+    "dc": 18,
+    "time_hours": 40,
+    "material_cost_gp": 70,
+    "item_value_gp": 200,
+    "tool_required": ["Smith"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Plate",
+    "type": "heavy armour",
+    "dc": 20,
+    "time_hours": 200,
+    "material_cost_gp": 500,
+    "item_value_gp": 1500,
+    "tool_required": ["Smith"],
+    "restricted_types": ["armor"]
+  },
+  {
+    "name": "Shield",
+    "type": "shield",
+    "dc": 13,
+    "time_hours": 8,
+    "material_cost_gp": 3,
+    "item_value_gp": 10,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["armor", "held item"]
+  },
+  {
+    "name": "Portable Ram",
+    "type": "adventuring gear",
+    "dc": 11,
+    "time_hours": 2,
+    "material_cost_gp": 2,
+    "item_value_gp": 4,
+    "tool_required": ["Carpenter", "Smith", "Woodcarver"],
+    "restricted_types": ["ram", "held item"]
+  }
+]

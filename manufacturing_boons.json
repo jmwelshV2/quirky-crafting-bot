@@ -1,0 +1,90 @@
+[
+  {
+    "range": [1, 2],
+    "name": "Durable",
+    "description": "The hit points of this item are tripled.",
+    "restricted_types": [],
+    "excluded_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [3, 4],
+    "name": "Unreactive",
+    "description": "This item resists corrosion and rot. If an environmental effect or creature would cause an item to become damaged, roll a d20. On an 11 or higher, the item is unaffected.",
+    "restricted_types": [],
+    "excluded_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [5, 6],
+    "name": "Lightweight",
+    "description": "This item weighs half as much as normal. If it is a weapon with the heavy property, it loses this property. If it doesn't have the heavy property, it gains the light property.",
+    "restricted_types": [],
+    "excluded_types": ["light", "ram"],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [7, 8],
+    "name": "Magnificent Finish",
+    "description": "This item's finish is on point and it is worth twice its normal value.",
+    "restricted_types": [],
+    "excluded_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [9, 10],
+    "name": "Flashy",
+    "description": "While you wear or hold the item, you have advantage on Charisma (Persuasion) checks against creatures that can see the item.",
+    "restricted_types": [],
+    "excluded_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [11, 12],
+    "name": "Insulated",
+    "description": "If this item is clothing or armour, you have advantage on Constitution saves vs cold. If it's a weapon or held item, you have advantage on saves vs heat metal. Otherwise, reroll.",
+    "restricted_types": ["armor", "clothing", "held item", "weapon"],
+    "excluded_types": ["attached"],
+    "reroll_if_invalid": true
+  },
+  {
+    "range": [13, 14],
+    "name": "Grippy",
+    "description": "You have advantage on checks to resist the item being disarmed or taken from you. If the item is neither a held item nor a weapon, reroll.",
+    "restricted_types": ["held item", "weapon"],
+    "excluded_types": ["attached"],
+    "reroll_if_invalid": true
+  },
+  {
+    "range": [15, 16],
+    "name": "Quick Release",
+    "description": "If this item is armour or a shield, it is quick to equip/stow. Otherwise, reroll.",
+    "restricted_types": ["armor", "shield"],
+    "excluded_types": [],
+    "reroll_if_invalid": true
+  },
+  {
+    "range": [17, 18],
+    "name": "Aerodynamic",
+    "description": "If the item has the thrown property or is ammunition, it has improved range. Otherwise, reroll.",
+    "restricted_types": ["thrown", "range", "improvised"],
+    "excluded_types": [],
+    "reroll_if_invalid": true
+  },
+  {
+    "range": [19, 19],
+    "name": "Perfect Balance",
+    "description": "If weapon: reroll 1s on attack. If armour/clothing: reroll 1s on Acrobatics/Dex saves. Otherwise, reroll.",
+    "restricted_types": ["weapon", "armor", "clothing"],
+    "excluded_types": [],
+    "reroll_if_invalid": true
+  },
+  {
+    "range": [20, 20],
+    "name": "Artisanal Craftsmanship",
+    "description": "Weapon: +1 to damage rolls. Armour/clothing: reduce nonmagical damage taken by 1. Otherwise, reroll.",
+    "restricted_types": ["weapon", "armor", "ram"],
+    "excluded_types": [],
+    "reroll_if_invalid": true
+  }
+]

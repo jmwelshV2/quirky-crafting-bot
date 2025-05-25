@@ -1,0 +1,79 @@
+[
+  {
+    "range": [1, 6],
+    "name": "Poor/Shoddy/Abysmal Handiwork",
+    "description": "This item is not well made. If this is a weapon, it has a -1 penalty to its attack and damage rolls. If it is armour, it has a -1 penalty to its base AC. If it is neither armour nor weapon, it gains the Fragile quirk instead.",
+    "restricted_types": ["armor", "weapon"],
+    "reroll_if_invalid": true
+  },
+  {
+    "range": [7, 8],
+    "name": "Fragile",
+    "description": "This item is prone to breaking. If the item is a weapon, when you roll a 1 on the d20 for an attack roll using the item, the weapon breaks. If the item isn't a weapon, whenever you suffer a critical hit, roll a d20 for each fragile item you wear, hold, or carry. On a 1, the item breaks and is no longer usable.",
+    "restricted_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [9, 10],
+    "name": "Unwieldy",
+    "description": "This item is poorly balanced or interferes with your movement. Whenever you make an attack with this weapon, or make a Dexterity saving throw or Dexterity (Acrobatics) check while wearing or carrying it, and roll a 1 on the d20, there are consequences. If it is a weapon, it flies 10 feet in a random direction. If the item isn’t a weapon, you fall prone.",
+    "restricted_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [11, 12],
+    "name": "Degradable",
+    "description": "Spending time in water or other reactive environments causes this item to degrade. Roll a d20 each time it emerges after being submerged in water, or each hour it spends in a corrosive environment. On a 1, the item breaks and is no longer usable.",
+    "restricted_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [13, 14],
+    "name": "Noisy",
+    "description": "Something about this item squeaks or rustles. You have disadvantage on Dexterity (Stealth) checks while wearing or carrying the item, even if the item is stowed away.",
+    "restricted_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [15, 15],
+    "name": "Pungent",
+    "description": "This item has a distinctly off-putting odour. While wearing or carrying the item, you have disadvantage on Charisma checks against creatures that don’t like bad smells, and creatures have advantage on Wisdom (Perception) checks made to detect you by smell.",
+    "restricted_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [16, 16],
+    "name": "Heavy",
+    "description": "This item weighs twice as much as normal.",
+    "restricted_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [17, 17],
+    "name": "Garish",
+    "description": "The designs and colours in this item are all wrong. While you wear or hold the item, you have disadvantage on Charisma (Intimidation) checks against creatures that can see the item.",
+    "restricted_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [18, 18],
+    "name": "Mediocre Finish",
+    "description": "This item looks like crap and is worth half its normal value.",
+    "restricted_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [19, 19],
+    "name": "Under Insulated",
+    "description": "Something about this item conducts heat or is under-insulated. While wearing or carrying the item, whenever you take cold or fire damage, you take an additional 1d8 damage of the same type.",
+    "restricted_types": [],
+    "reroll_if_invalid": false
+  },
+  {
+    "range": [20, 20],
+    "name": "Dangerous",
+    "description": "When you make an attack with this item, while wearing this clothing or armour, or while holding this held item, the range of values that result in a critical fail increases by 1 (e.g. from a result of 1, to a result of 1–2 on the d20).",
+    "restricted_types": [],
+    "reroll_if_invalid": false
+  }
+]
